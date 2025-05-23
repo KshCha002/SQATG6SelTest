@@ -1,0 +1,2199 @@
+{
+    "count": 41,
+    "resources": [
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "aws-bedrock",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Amazon's titan-text-express model",
+            "displayName": "Titan Text Express",
+            "executableId": "aws-bedrock",
+            "model": "amazon--titan-text-express",
+            "provider": "Amazon",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 8000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00086"
+                        },
+                        {
+                            "outputCost": "0.00158"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "name": "1",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "aws-bedrock",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Amazon titan-text-lite model",
+            "displayName": "Titan Text Lite",
+            "executableId": "aws-bedrock",
+            "model": "amazon--titan-text-lite",
+            "provider": "Amazon",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 4000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00033"
+                        },
+                        {
+                            "outputCost": "0.00040"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "name": "1",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "aws-bedrock",
+                    "scenarioId": "foundation-models"
+                }
+            ],
+            "description": "Amazon titan-embed-text model",
+            "displayName": "Titan Embed Text",
+            "executableId": "aws-bedrock",
+            "model": "amazon--titan-embed-text",
+            "provider": "Amazon",
+            "versions": [
+                {
+                    "capabilities": [
+                        "embedding"
+                    ],
+                    "cost": [
+                        {
+                            "inputCost": "0.00014"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": false,
+                    "name": "1.2",
+                    "retirementDate": "",
+                    "streamingSupported": false
+                },
+                {
+                    "capabilities": [
+                        "embedding"
+                    ],
+                    "cost": [
+                        {
+                            "inputCost": "0.00014"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "mtebAverageScore": "60.37"
+                        }
+                    ],
+                    "name": "2",
+                    "retirementDate": "",
+                    "streamingSupported": false
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "aws-bedrock",
+                    "scenarioId": "foundation-models"
+                }
+            ],
+            "description": "Amazon titan-image-generator model",
+            "displayName": "Titan Image Generator",
+            "executableId": "aws-bedrock",
+            "model": "amazon--titan-image-generator",
+            "provider": "Amazon",
+            "versions": [
+                {
+                    "capabilities": [
+                        "image-generation"
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image"
+                    ],
+                    "isLatest": true,
+                    "name": "1",
+                    "retirementDate": "",
+                    "streamingSupported": false
+                }
+            ]
+        },
+        {
+            "accessType": "SAP-Managed",
+            "allowedScenarios": [
+                {
+                    "executableId": "aicore-opensource",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Mistral AI's mixtral-8x7b-instruct model",
+            "displayName": "Mixtral-8x7b Instruct",
+            "executableId": "aicore-opensource",
+            "model": "mistralai--mixtral-8x7b-instruct-v01",
+            "provider": "Mistral AI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 32768,
+                    "cost": [
+                        {
+                            "inputCost": "0.00023"
+                        },
+                        {
+                            "outputCost": "0.00038"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "chatBotArenaScore": "1114"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.391"
+                        },
+                        {
+                            "biasRefusalRate": "0.49"
+                        }
+                    ],
+                    "name": "202407",
+                    "retirementDate": "",
+                    "streamingSupported": false
+                }
+            ]
+        },
+        {
+            "accessType": "SAP-Hosted",
+            "allowedScenarios": [
+                {
+                    "executableId": "aicore-sap",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Mistral codestral 22b model",
+            "displayName": "ABAP Codestral",
+            "executableId": "aicore-sap",
+            "model": "abap-codestral",
+            "provider": "SAP",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 32768,
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "name": "v1",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "SAP-Hosted",
+            "allowedScenarios": [
+                {
+                    "executableId": "aicore-sap",
+                    "scenarioId": "foundation-models"
+                }
+            ],
+            "description": "starcoder2 7b model",
+            "displayName": "ABAP Starcoder2-7b",
+            "executableId": "aicore-sap",
+            "model": "abap-starcoder2-7b",
+            "provider": "SAP",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 16384,
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "name": "v4",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "SAP-Managed",
+            "allowedScenarios": [
+                {
+                    "executableId": "aicore-ibm",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "IBM Granite model",
+            "displayName": "IBM Granite 13b Chat",
+            "executableId": "aicore-ibm",
+            "model": "ibm--granite-13b-chat",
+            "provider": "IBM",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 8192,
+                    "cost": [
+                        {
+                            "inputCost": "0.00032"
+                        },
+                        {
+                            "outputCost": "0.00032"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "name": "2.1.0",
+                    "retirementDate": "",
+                    "streamingSupported": false
+                }
+            ]
+        },
+        {
+            "accessType": "SAP-Managed",
+            "allowedScenarios": [
+                {
+                    "executableId": "aicore-opensource",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Meta llama3.1 70b instruct model",
+            "displayName": "Meta LLama3.1 70b Instruct",
+            "executableId": "aicore-opensource",
+            "model": "meta--llama3.1-70b-instruct",
+            "provider": "Meta",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 128000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00115"
+                        },
+                        {
+                            "outputCost": "0.00217"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "chatBotArenaScore": "1248"
+                        }
+                    ],
+                    "name": "202409",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "SAP-Hosted",
+            "allowedScenarios": [
+                {
+                    "executableId": "aicore-mistralai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Mistral large model",
+            "displayName": "Mistral Large Instruct",
+            "executableId": "aicore-mistralai",
+            "model": "mistralai--mistral-large-instruct",
+            "provider": "Mistral AI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 128000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00112"
+                        },
+                        {
+                            "outputCost": "0.00320"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "name": "2407",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "SAP-Hosted",
+            "allowedScenarios": [
+                {
+                    "executableId": "aicore-mistralai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Mistral small instruct model",
+            "displayName": "Mistral Small Instruct",
+            "executableId": "aicore-mistralai",
+            "model": "mistralai--mistral-small-instruct",
+            "provider": "Mistral AI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 128000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00005"
+                        },
+                        {
+                            "outputCost": "0.00015"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "name": "2503",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "SAP-Managed",
+            "allowedScenarios": [
+                {
+                    "executableId": "aicore-nvidia",
+                    "scenarioId": "foundation-models"
+                }
+            ],
+            "description": "Nvidia llama-3.2-nv-embedqa-1b Embedding model",
+            "displayName": "NVIDIA Llama-3.2 EmbedQA-1b",
+            "executableId": "aicore-nvidia",
+            "model": "nvidia--llama-3.2-nv-embedqa-1b",
+            "provider": "NVIDIA",
+            "versions": [
+                {
+                    "capabilities": [
+                        "embedding"
+                    ],
+                    "cost": [
+                        {
+                            "inputCost": "0.00007"
+                        },
+                        {
+                            "outputCost": "0.00000"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "name": "2",
+                    "retirementDate": "2025-09-30",
+                    "streamingSupported": false
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "aws-bedrock",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Anthropic Claude-3 Haiku",
+            "displayName": "Claude 3 Haiku",
+            "executableId": "aws-bedrock",
+            "model": "anthropic--claude-3-haiku",
+            "provider": "Anthropic",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition"
+                    ],
+                    "contextLength": 200000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00024"
+                        },
+                        {
+                            "outputCost": "0.00089"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.263"
+                        },
+                        {
+                            "chatBotArenaScore": "1179"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.827"
+                        },
+                        {
+                            "biasRefusalRate": "0.69"
+                        }
+                    ],
+                    "name": "1",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "aws-bedrock",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Anthropic Claude-3 Opus",
+            "displayName": "Claude 3 Opus",
+            "executableId": "aws-bedrock",
+            "model": "anthropic--claude-3-opus",
+            "provider": "Anthropic",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition"
+                    ],
+                    "contextLength": 200000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00988"
+                        },
+                        {
+                            "outputCost": "0.04913"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.683"
+                        },
+                        {
+                            "chatBotArenaScore": "1247"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.844"
+                        },
+                        {
+                            "biasRefusalRate": "0.783"
+                        }
+                    ],
+                    "name": "1",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "aws-bedrock",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Anthropic Claude-3 Sonnet",
+            "displayName": "Claude 3 Sonnet",
+            "executableId": "aws-bedrock",
+            "model": "anthropic--claude-3-sonnet",
+            "provider": "Anthropic",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition"
+                    ],
+                    "contextLength": 200000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00204"
+                        },
+                        {
+                            "outputCost": "0.00988"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.377"
+                        },
+                        {
+                            "chatBotArenaScore": "1201"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.847"
+                        },
+                        {
+                            "biasRefusalRate": "0.739"
+                        }
+                    ],
+                    "name": "1",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "aws-bedrock",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Anthropic Claude-3.5 Sonnet",
+            "displayName": "Claude 3.5 Sonnet",
+            "executableId": "aws-bedrock",
+            "model": "anthropic--claude-3.5-sonnet",
+            "provider": "Anthropic",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition"
+                    ],
+                    "contextLength": 200000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00204"
+                        },
+                        {
+                            "outputCost": "0.00988"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.885"
+                        },
+                        {
+                            "chatBotArenaScore": "1268"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.859"
+                        },
+                        {
+                            "biasRefusalRate": "0.814"
+                        }
+                    ],
+                    "name": "1",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "aws-bedrock",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Amazon anthropic-claude-3.7-sonnet",
+            "displayName": "Claude 3.7 Sonnet",
+            "executableId": "aws-bedrock",
+            "model": "anthropic--claude-3.7-sonnet",
+            "provider": "Anthropic",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition",
+                        "reasoning"
+                    ],
+                    "contextLength": 200000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00204"
+                        },
+                        {
+                            "outputCost": "0.00988"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "chatBotArenaScore": "1292"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.818"
+                        },
+                        {
+                            "biasRefusalRate": "0.803"
+                        }
+                    ],
+                    "name": "1",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "OpenAI GPT-4o engineered for speed and efficiency, supporting text, images and audio using Chat Completions API",
+            "displayName": "GPT-4o",
+            "executableId": "azure-openai",
+            "model": "gpt-4o",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition"
+                    ],
+                    "contextLength": 128000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00312"
+                        },
+                        {
+                            "outputCost": "0.0092"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image",
+                        "audio"
+                    ],
+                    "isLatest": false,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.938"
+                        },
+                        {
+                            "chatBotArenaScore": "1285"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.528"
+                        },
+                        {
+                            "biasRefusalRate": "0.519"
+                        }
+                    ],
+                    "name": "2024-05-13",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                },
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition"
+                    ],
+                    "contextLength": 128000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00159"
+                        },
+                        {
+                            "outputCost": "0.00616"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image",
+                        "audio"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.928"
+                        },
+                        {
+                            "chatBotArenaScore": "1265"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.623"
+                        },
+                        {
+                            "biasRefusalRate": "0.595"
+                        }
+                    ],
+                    "name": "2024-08-06",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                }
+            ],
+            "description": "OpenAI Whisper model for speech recognition and translation tasks, capable of transcribing speech audio into the text",
+            "displayName": "Whisper",
+            "executableId": "azure-openai",
+            "model": "whisper",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "speech-to-text"
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "audio"
+                    ],
+                    "isLatest": true,
+                    "name": "001",
+                    "retirementDate": "",
+                    "streamingSupported": false
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Azure OpenAI GPT-4 chat completions model",
+            "displayName": "GPT-4",
+            "executableId": "azure-openai",
+            "model": "gpt-4",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 128000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00616"
+                        },
+                        {
+                            "outputCost": "0.01833"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.864"
+                        },
+                        {
+                            "chatBotArenaScore": "1256"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.719"
+                        },
+                        {
+                            "biasRefusalRate": "0.649"
+                        }
+                    ],
+                    "name": "turbo-2024-04-09",
+                    "retirementDate": "",
+                    "streamingSupported": true,
+                    "suggestedReplacements": [
+                        "gpt-4o"
+                    ]
+                },
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 8192,
+                    "cost": [
+                        {
+                            "inputCost": "0.01735"
+                        },
+                        {
+                            "outputCost": "0.03462"
+                        }
+                    ],
+                    "deprecated": true,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": false,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.867"
+                        },
+                        {
+                            "chatBotArenaScore": "1163"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.642"
+                        },
+                        {
+                            "biasRefusalRate": "0.559"
+                        }
+                    ],
+                    "name": "0613",
+                    "retirementDate": "2025-06-06",
+                    "streamingSupported": true,
+                    "suggestedReplacements": [
+                        "gpt-4o"
+                    ]
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "OpenAI GPT-3.5 Turbo model optimized for chat using the Chat Completions API",
+            "displayName": "GPT-3.5 Turbo",
+            "executableId": "azure-openai",
+            "model": "gpt-35-turbo",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 16385,
+                    "cost": [
+                        {
+                            "inputCost": "0.00094"
+                        },
+                        {
+                            "outputCost": "0.00122"
+                        }
+                    ],
+                    "deprecated": true,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "chatBotArenaScore": "1068"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.525"
+                        },
+                        {
+                            "biasRefusalRate": "0.505"
+                        }
+                    ],
+                    "name": "1106",
+                    "retirementDate": "",
+                    "streamingSupported": true,
+                    "suggestedReplacements": [
+                        "gpt-4o-mini"
+                    ]
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Azure OpenAI GPT-3.5 Turbo chat completions model",
+            "displayName": "GPT-3.5 Turbo 0125",
+            "executableId": "azure-openai",
+            "model": "gpt-35-turbo-0125",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 16385,
+                    "cost": [
+                        {
+                            "inputCost": "0.00037"
+                        },
+                        {
+                            "outputCost": "0.00097"
+                        }
+                    ],
+                    "deprecated": true,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "chatBotArenaScore": "1106"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.44"
+                        },
+                        {
+                            "biasRefusalRate": "0.464"
+                        }
+                    ],
+                    "name": "0125",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "OpenAI GPT-4 chat completions model with 32k context.",
+            "displayName": "GPT-4 32k",
+            "executableId": "azure-openai",
+            "model": "gpt-4-32k",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 32768,
+                    "cost": [
+                        {
+                            "inputCost": "0.03462"
+                        },
+                        {
+                            "outputCost": "0.06917"
+                        }
+                    ],
+                    "deprecated": true,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "name": "0613",
+                    "retirementDate": "2025-06-06",
+                    "streamingSupported": true,
+                    "suggestedReplacements": [
+                        "gpt-4o"
+                    ]
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "OpenAI o3-mini",
+            "displayName": "O3 Mini",
+            "executableId": "azure-openai",
+            "model": "o3-mini",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 200000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00069"
+                        },
+                        {
+                            "outputCost": "0.00270"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "chatBotArenaScore": "1305"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.749"
+                        },
+                        {
+                            "biasRefusalRate": "0.725"
+                        }
+                    ],
+                    "name": "2025-01-31",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "OpenAI O1 Model",
+            "displayName": "O1",
+            "executableId": "azure-openai",
+            "model": "o1",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition"
+                    ],
+                    "contextLength": 200000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00920"
+                        },
+                        {
+                            "outputCost": "0.03658"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image",
+                        "audio"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "chatBotArenaScore": "1351"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.8"
+                        },
+                        {
+                            "biasRefusalRate": "0.792"
+                        }
+                    ],
+                    "name": "2024-12-17",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "OpenAI GPT-4o mini, low cost model supporting 128k multimodal input with 16k max output tokens",
+            "displayName": "GPT-4o Mini",
+            "executableId": "azure-openai",
+            "model": "gpt-4o-mini",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition"
+                    ],
+                    "contextLength": 128000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00009"
+                        },
+                        {
+                            "outputCost": "0.00039"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image",
+                        "audio"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.701"
+                        },
+                        {
+                            "chatBotArenaScore": "1272"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.563"
+                        },
+                        {
+                            "biasRefusalRate": "0.479"
+                        }
+                    ],
+                    "name": "2024-07-18",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                }
+            ],
+            "description": "Azure OpenAI Text Embedding ADA 002 model",
+            "displayName": "Text Embedding Ada 002",
+            "executableId": "azure-openai",
+            "model": "text-embedding-ada-002",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "embedding"
+                    ],
+                    "cost": [
+                        {
+                            "inputCost": "0.00007"
+                        }
+                    ],
+                    "deprecated": true,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "mtebAverageScore": "60.99"
+                        }
+                    ],
+                    "name": "2",
+                    "retirementDate": "",
+                    "streamingSupported": false,
+                    "suggestedReplacements": [
+                        "text-embedding-3-small",
+                        "text-embedding-3-large"
+                    ]
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                }
+            ],
+            "description": "Azure OpenAI Text Embedding 3 Small Model",
+            "displayName": "Text Embedding 3 Small",
+            "executableId": "azure-openai",
+            "model": "text-embedding-3-small",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "embedding"
+                    ],
+                    "cost": [
+                        {
+                            "inputCost": "0.00002"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "mtebAverageScore": "62.27"
+                        }
+                    ],
+                    "name": "1",
+                    "retirementDate": "",
+                    "streamingSupported": false
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                }
+            ],
+            "description": "Azure OpenAI Text Embedding 3 Large Model",
+            "displayName": "Text Embedding 3 Large",
+            "executableId": "azure-openai",
+            "model": "text-embedding-3-large",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "embedding"
+                    ],
+                    "cost": [
+                        {
+                            "inputCost": "0.00009"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "mtebAverageScore": "64.52"
+                        }
+                    ],
+                    "name": "1",
+                    "retirementDate": "",
+                    "streamingSupported": false
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                }
+            ],
+            "description": "Azure OpenAI dall-e-3 image generate model",
+            "displayName": "Dall-E 3",
+            "executableId": "azure-openai",
+            "model": "dall-e-3",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "image-generation"
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "name": "3",
+                    "retirementDate": "",
+                    "streamingSupported": false
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "OpenAI GPT-4.1 chat completions model.",
+            "displayName": "GPT-4.1",
+            "executableId": "azure-openai",
+            "model": "gpt-4.1",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition"
+                    ],
+                    "contextLength": 1047576,
+                    "cost": [
+                        {
+                            "inputCost": "0.00129"
+                        },
+                        {
+                            "outputCost": "0.00494"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "meanWinRate": ""
+                        },
+                        {
+                            "chatBotArenaScore": "1363"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.648"
+                        },
+                        {
+                            "biasRefusalRate": "0.61"
+                        }
+                    ],
+                    "name": "2025-04-14",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "OpenAI GPT-4.1 nano chat completions model.",
+            "displayName": "GPT-4.1 nano",
+            "executableId": "azure-openai",
+            "model": "gpt-4.1-nano",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition"
+                    ],
+                    "contextLength": 1047576,
+                    "cost": [
+                        {
+                            "inputCost": "0.00008"
+                        },
+                        {
+                            "outputCost": "0.00026"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "meanWinRate": ""
+                        },
+                        {
+                            "chatBotArenaScore": "1271"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.615"
+                        },
+                        {
+                            "biasRefusalRate": "0.498"
+                        }
+                    ],
+                    "name": "2025-04-14",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "OpenAI GPT-4.1 mini chat completions model.",
+            "displayName": "GPT-4.1 mini",
+            "executableId": "azure-openai",
+            "model": "gpt-4.1-mini",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition"
+                    ],
+                    "contextLength": 1047576,
+                    "cost": [
+                        {
+                            "inputCost": "0.00026"
+                        },
+                        {
+                            "outputCost": "0.00099"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "meanWinRate": ""
+                        },
+                        {
+                            "chatBotArenaScore": "1322"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.604"
+                        },
+                        {
+                            "biasRefusalRate": "0.54"
+                        }
+                    ],
+                    "name": "2025-04-14",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "OpenAI o3",
+            "displayName": "O3",
+            "executableId": "azure-openai",
+            "model": "o3",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition"
+                    ],
+                    "contextLength": 200000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00610"
+                        },
+                        {
+                            "outputCost": "0.02436"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "chatBotArenaScore": "1418"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.845"
+                        },
+                        {
+                            "biasRefusalRate": "0.838"
+                        }
+                    ],
+                    "name": "2025-04-16",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "azure-openai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "OpenAI o4-mini",
+            "displayName": "o4 Mini",
+            "executableId": "azure-openai",
+            "model": "o4-mini",
+            "provider": "OpenAI",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 200000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00069"
+                        },
+                        {
+                            "outputCost": "0.00270"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "chatBotArenaScore": "1351"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.785"
+                        },
+                        {
+                            "biasRefusalRate": "0.755"
+                        }
+                    ],
+                    "name": "2025-04-16",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "gcp-vertexai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Google's Gemini-1.5-pro content generation model",
+            "displayName": "Gemini 1.5 Pro",
+            "executableId": "gcp-vertexai",
+            "model": "gemini-1.5-pro",
+            "provider": "Google",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition",
+                        "speech-to-text"
+                    ],
+                    "contextLength": 2000000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00087",
+                            "tier": "1",
+                            "tierDescription": "Less than 128k tokens per request"
+                        },
+                        {
+                            "inputCost": "0.00167",
+                            "tier": "2",
+                            "tierDescription": "128k tokens or greater per request"
+                        },
+                        {
+                            "outputCost": "0.00327",
+                            "tier": "1",
+                            "tierDescription": "Less than 128k tokens per request"
+                        },
+                        {
+                            "outputCost": "0.00647",
+                            "tier": "2",
+                            "tierDescription": "128k tokens or greater per request"
+                        }
+                    ],
+                    "deprecated": true,
+                    "inputTypes": [
+                        "text",
+                        "image",
+                        "audio"
+                    ],
+                    "isLatest": false,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.739"
+                        },
+                        {
+                            "chatBotArenaScore": "1260"
+                        },
+                        {
+                            "biasRefusalRate": "0.802",
+                            "remarks": "BLOCK_NONE safety"
+                        }
+                    ],
+                    "name": "001",
+                    "retirementDate": "2025-05-24",
+                    "streamingSupported": true
+                },
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition",
+                        "speech-to-text"
+                    ],
+                    "contextLength": 2000000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00087",
+                            "tier": "1",
+                            "tierDescription": "Less than 128k tokens per request"
+                        },
+                        {
+                            "inputCost": "0.00167",
+                            "tier": "2",
+                            "tierDescription": "128k tokens or greater per request"
+                        },
+                        {
+                            "outputCost": "0.00327",
+                            "tier": "1",
+                            "tierDescription": "Less than 128k tokens per request"
+                        },
+                        {
+                            "outputCost": "0.00647",
+                            "tier": "2",
+                            "tierDescription": "128k tokens or greater per request"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image",
+                        "audio"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.842"
+                        },
+                        {
+                            "chatBotArenaScore": "1302"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.673"
+                        },
+                        {
+                            "biasRefusalRate": "0.728"
+                        }
+                    ],
+                    "name": "002",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "gcp-vertexai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Google's Gemini-1.5-flash content generation model",
+            "displayName": "Gemini 1.5 Flash",
+            "executableId": "gcp-vertexai",
+            "model": "gemini-1.5-flash",
+            "provider": "Google",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition",
+                        "speech-to-text"
+                    ],
+                    "contextLength": 1000000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00007",
+                            "tier": "1",
+                            "tierDescription": "Less than 128k tokens per request"
+                        },
+                        {
+                            "inputCost": "0.00012",
+                            "tier": "2",
+                            "tierDescription": "128k tokens or greater per request"
+                        },
+                        {
+                            "outputCost": "0.00021",
+                            "tier": "1",
+                            "tierDescription": "Less than 128k tokens per request"
+                        },
+                        {
+                            "outputCost": "0.00040",
+                            "tier": "2",
+                            "tierDescription": "128k tokens or greater per request"
+                        }
+                    ],
+                    "deprecated": true,
+                    "inputTypes": [
+                        "text",
+                        "image",
+                        "audio"
+                    ],
+                    "isLatest": false,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.667"
+                        },
+                        {
+                            "chatBotArenaScore": "1227"
+                        },
+                        {
+                            "biasRefusalRate": "0.755",
+                            "remarks": "BLOCK_NONE safety"
+                        }
+                    ],
+                    "name": "001",
+                    "retirementDate": "2025-05-24",
+                    "streamingSupported": true
+                },
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition",
+                        "speech-to-text"
+                    ],
+                    "contextLength": 1000000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00007",
+                            "tier": "1",
+                            "tierDescription": "Less than 128k tokens per request"
+                        },
+                        {
+                            "inputCost": "0.00012",
+                            "tier": "2",
+                            "tierDescription": "128k tokens or greater per request"
+                        },
+                        {
+                            "outputCost": "0.00021",
+                            "tier": "1",
+                            "tierDescription": "Less than 128k tokens per request"
+                        },
+                        {
+                            "outputCost": "0.00040",
+                            "tier": "2",
+                            "tierDescription": "128k tokens or greater per request"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image",
+                        "audio"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "meanWinRate": "0.573"
+                        },
+                        {
+                            "chatBotArenaScore": "1271"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.671"
+                        },
+                        {
+                            "biasRefusalRate": "0.715"
+                        }
+                    ],
+                    "name": "002",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "gcp-vertexai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Google's Gemini-2.0-flash content generation model",
+            "displayName": "Gemini 2.0 Flash",
+            "executableId": "gcp-vertexai",
+            "model": "gemini-2.0-flash",
+            "provider": "Google",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition",
+                        "speech-to-text"
+                    ],
+                    "contextLength": 1000000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00012"
+                        },
+                        {
+                            "outputCost": "0.00040"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image",
+                        "audio",
+                        "video"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "chatBotArenaScore": "1354"
+                        },
+                        {
+                            "airBenchRefusalRate": "0.662"
+                        },
+                        {
+                            "biasRefusalRate": "0.618"
+                        }
+                    ],
+                    "name": "001",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "Remote",
+            "allowedScenarios": [
+                {
+                    "executableId": "gcp-vertexai",
+                    "scenarioId": "foundation-models"
+                },
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Google's Gemini-2.0-flash-lite content generation model",
+            "displayName": "Gemini 2.0 Flash Lite",
+            "executableId": "gcp-vertexai",
+            "model": "gemini-2.0-flash-lite",
+            "provider": "Google",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation",
+                        "image-recognition",
+                        "speech-to-text"
+                    ],
+                    "contextLength": 1000000,
+                    "cost": [
+                        {
+                            "inputCost": "0.00007"
+                        },
+                        {
+                            "outputCost": "0.00021"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text",
+                        "image",
+                        "audio",
+                        "video"
+                    ],
+                    "isLatest": true,
+                    "metadata": [
+                        {
+                            "chatBotArenaScore": "1311"
+                        }
+                    ],
+                    "name": "001",
+                    "retirementDate": "",
+                    "streamingSupported": true
+                }
+            ]
+        },
+        {
+            "accessType": "SAP-Managed",
+            "allowedScenarios": [
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Aleph Alpha Pharia 1 LLM 7B control Large Language Model",
+            "displayName": "Pharia-1 7b Control",
+            "executableId": "orchestration",
+            "model": "alephalpha-pharia-1-7b-control",
+            "provider": "Aleph Alpha",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "contextLength": 8192,
+                    "cost": [
+                        {
+                            "inputCost": "0.00018"
+                        },
+                        {
+                            "outputCost": "0.00027"
+                        }
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "name": "202411",
+                    "retirementDate": "",
+                    "streamingSupported": false
+                }
+            ]
+        },
+        {
+            "accessType": "SAP-Managed",
+            "allowedScenarios": [
+                {
+                    "executableId": "orchestration",
+                    "scenarioId": "orchestration"
+                }
+            ],
+            "description": "Aleph Alpha Pharia 1 LLM 66B control Large Language Model",
+            "displayName": "Pharia-1 66b Control",
+            "executableId": "orchestration",
+            "model": "alephalpha-pharia-1-66b-control",
+            "provider": "Aleph Alpha",
+            "versions": [
+                {
+                    "capabilities": [
+                        "text-generation"
+                    ],
+                    "deprecated": false,
+                    "inputTypes": [
+                        "text"
+                    ],
+                    "isLatest": true,
+                    "name": "202411",
+                    "retirementDate": "",
+                    "streamingSupported": false
+                }
+            ]
+        }
+    ]
+}

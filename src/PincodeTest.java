@@ -20,6 +20,7 @@ public class PincodeTest {
 
         try {
             driver.manage().window().maximize();
+            //driver.get("https://www.myntra.com/dresses/kaarigari/kaarigari-girls-embellished-velvet-sheath-dress/33396168/buy");
             driver.get("https://www.myntra.com/dresses/kaarigari/kaarigari-girls-embellished-velvet-sheath-dress/33396168/buy");
 
             for (int i = 0; i < pincodes.length; i++) {
