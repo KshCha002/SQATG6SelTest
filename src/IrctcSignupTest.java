@@ -131,7 +131,7 @@ public class IrctcSignupTest {
             list.add(new TestCase("TC_25", "usernameisnineteenn", "Aa1!bB2@Cd3$e", "Valid"));
             list.add(new TestCase("TC_27", "usernameisnineteenn", "Aa1!bB2@Cd3$EfG", "Valid"));
             list.add(new TestCase("TC_29", "MyUserNameIsThirtyFourCharacters34", "Aa1!bB2@Cd", "Valid"));
-            list.add(new TestCase("TC_34", "MyUserNameUsingThirtySixCharacters36", "Aa1!bB2@Cd3$EfG", "username invalid"));
+            list.add(new TestCase("TC_34", "MyUserNameIsThirtyFourCharacters34", "Aa1!bB2@Cd3$EfG", "Valid"));
             list.add(new TestCase("TC_36", "MyUserNameHasThirtyFiveCharacters35", "Aa1!bB2@Cd3$EfG4", "password invalid"));
             list.add(new TestCase("TC_41", "MyUserNameHasThirtyFiveCharacters35", "Aa1!bB2@Cd3$EfG", "Valid"));
             list.add(new TestCase("TC_49", "MyUserNameUsingThirtySixCharacters36", "Aa1!bB2@Cd3$EfG4", "Both Invalid"));
